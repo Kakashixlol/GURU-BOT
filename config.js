@@ -13,7 +13,10 @@ if (!ownervb) {
 
 const ownerlist = ownervb.split(';');
 
-global.owner = [];
+global.owner = [
+     ['201033401721', 'kafrawy', true],
+  ['201508879130', 'KABO', true], 
+];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            
